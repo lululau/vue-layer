@@ -16,7 +16,7 @@
     flycheck
     smartparens
     vue-mode
-    (lsp-vue :requires lsp-mode lsp-ui company-lsp)
+    (lsp-vue :requires lsp-mode lsp-ui lsp-ui-flycheck company-lsp)
   ))
 
 (defun vue/post-init-add-node-modules-path ()
